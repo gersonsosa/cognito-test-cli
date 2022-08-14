@@ -1,0 +1,17 @@
+{
+  "name": "cognito-test-cli",
+  "version": "0.0.1",
+  "description": "Amplify test scripts",
+  "main": "index.js",
+  "author": "gersonsosa",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@aws-amplify/auth": "^3.2.4",
+    "@aws-amplify/core": "^3.2.4",
+    "commander": "^5.0.0",
+    "node-fetch": "^2.6.0"
+  }
+}
